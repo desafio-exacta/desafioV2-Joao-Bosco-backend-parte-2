@@ -1,0 +1,1 @@
+create table SPENT (id IDENTITY NOT NULL PRIMARY KEY, nome_pessoa varchar (255) not null, descricao varchar (255) not null, data_hora timestamp not null, valor real not null, tags varchar (255) not null);
